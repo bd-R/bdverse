@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+.logo {
+    float: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.title{
+      font-style: italic;
+      padding-top: 25%;
+    padding-left: 5%;
+    font-family: Oswald; 
+    font-size: 35px;
+    color: #fff;
+}
+
+.sub{
+  font-size: 0.6em;
+  color: grey;
+}
+
+.decr{
+    padding-left: 10%;
+    padding-right: 5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.2em;
+    color: #fff;
+    height: 30vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .decr{
+    height: 45vh;
+  }
+}
+
+.btn-default{
+  z-index: 999;
+    position: absolute;
+    right: 30px;
+    color: #000;
+    background: orange;
+    border: 2px solid #000;
+        border-radius: 0px;
+}
+
+.col-sm-3 {
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
+#pic01{
+     height: 100vh;
+    background: #795548;
+}
+
+#pic02{
+     height: 100vh;
+    background: #4caf50;
+}
+
+#pic03{
+     height: 100vh;
+    background: #03a9f4;
+}
+
+#pic04{
+     height: 100vh;
+    background: #f44336;
+}
+
+#pic01 img {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#pic02 img {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#pic03 img {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#pic04 img {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+   width: 100%;
+    height: auto;
+}

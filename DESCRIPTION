@@ -1,0 +1,41 @@
+Package: bdverse
+Type: Package
+Title: Collection of Packages That Form a General Framework for Facilitating Biodiversity Science in R
+Description: A sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The bdverse supports users with and without programming capabilities. It includes six unique packages in a hierarchal structure — representing different functionality levels.
+Version: 0.1.0
+Date: 2019-07-15
+Authors@R: c(
+    person(
+        "Tomer", "Gueta", 
+        email = "tomer.gu@gmail.com",
+        role = c("aut"),
+        comment = c(ORCID = '0000-0003-1557-8596')),
+    person(
+        "Vijay", "Barve", ,
+        email = "vijay.barve@gmail.com", 
+        role = c("aut"),
+        comment = c(ORCID = '0000-0002-4852-2567')),
+    person(
+        "Thiloshon", "Nagarajah",
+        email = "thiloshon@gmail.com",
+        role = c("aut","cre")),
+    person(
+        "Povilas", "Gibas",
+        email = "povilasgibas@gmail.com",
+        role = c("aut"),
+        comment = c(ORCID = '0000-0001-5311-6021')),
+    person(
+        "Yohay", "Carmel",
+        email = "yohay@cv.technion.ac.il",
+        role = c("aut"),
+        comment = c(ORCID = '0000-0002-5883-0184'))
+    )
+Maintainer: Thiloshon Nagarajah <thiloshon@gmail.com>
+Imports: shiny, bdDwC, bdchecks, bdclean, bdvis, gtools, tibble, knitr, rstudioapi, utils
+Depends: R (>= 2.10)
+RoxygenNote: 6.1.1
+URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html
+BugReports: https://github.com/bd-R/bdverse/issues
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
