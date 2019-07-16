@@ -13,6 +13,7 @@ Launch bdverse App Suite Launcher
 
 if(interactive()){
 
+# Requires rstudio 1.2
 bd_launcher()
 
 } 

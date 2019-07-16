@@ -1,4 +1,4 @@
-@import url('fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 .logo {
@@ -31,16 +31,22 @@
     padding-right: 5%;
     font-family: 'Roboto Slab', serif;
     font-size: 3.2em;
-    color: #3c3636;
-    
+    color: #fff;
     height: 30vh;
 }
 
+@media only screen and (max-width: 1200px) {
+  .decr{
+    height: 45vh;
+  }
+}
+
 .btn-default{
+  z-index: 999;
     position: absolute;
     right: 30px;
     color: #000;
-    background: transparent;
+    background: orange;
     border: 2px solid #000;
         border-radius: 0px;
 }

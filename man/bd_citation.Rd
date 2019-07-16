@@ -6,6 +6,26 @@
 \usage{
 bd_citation(citation_level = 1, type = "raw", bib_file = NA)
 }
+\arguments{
+\item{citation_level}{Recursiveness of dependency to cite. 1 - just bdverse. 2 - all bdverse packages. 3 - all direct dependencies. 4 - all direct and indirect dependencies.}
+
+\item{type}{Type of citation to generate. raw - Mixture of bib and text. text - Textual representation. bibtex - BibTex format. html - HTML Tags. latex - LATEX format.}
+
+\item{bib_file}{If path of file provided, a bib file will be genrated and written to disk.}
+}
+\value{
+String with citations or a file with citations
+}
 \description{
 Create citations for all dependencies of bdverse
+}
+\examples{
+
+# example 01 - Printing to console
+cite <- bd_citation(2, "text")
+
+# example 02 - printing to file
+bd_citation(2, "text", "cite.bib")
+
+
 }

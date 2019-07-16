@@ -6,6 +6,17 @@
 \usage{
 bd_dependencies(recursive = FALSE)
 }
+\arguments{
+\item{recursive}{Whether to return recursive rependencies as well.}
+}
+\value{
+tibble of dependency list
+}
 \description{
 List all dependencies of bdverse
+}
+\examples{
+
+deps <- bd_dependencies(TRUE)
+
 }
