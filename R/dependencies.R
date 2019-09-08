@@ -4,9 +4,7 @@
 #' 
 #' @return tibble of dependency list
 #'
-#' @examples
 #' 
-#' deps <- bd_dependencies(TRUE)
 #'
 #' @export
 bd_dependencies <- function(recursive = FALSE) {
@@ -90,13 +88,7 @@ bd_dependencies <- function(recursive = FALSE) {
 #' 
 #' @return String with citations or a file with citations
 #'
-#' @examples
 #' 
-#' # example 01 - Printing to console
-#' cite <- bd_citation(2, "text")
-#' 
-#' # example 02 - printing to file
-#' bd_citation(2, "text", "cite.bib")
 #' 
 #' 
 #' @export
@@ -193,9 +185,7 @@ bd_citation <- function(citation_level = 1,
 #' 
 #' @return tibble of packages list
 #'
-#' @examples
 #' 
-#' pkgs <- bd_packages(TRUE)
 #'
 #' @export
 bd_packages <- function() {

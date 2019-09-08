@@ -14,6 +14,5 @@ List all packages available in bdverse
 }
 \examples{
 
-pkgs <- bd_packages(TRUE)
 
 }

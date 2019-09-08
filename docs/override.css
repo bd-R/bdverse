@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .main-header .logo {
+    font-family: 'Nunito Sans', sans-serif !important;
+    /* font-family: 'Roboto Slab', serif; */
+}
+
+.hero-body-1 img {
+    height: 110vh;
+    width: 100vw;
+    margin-top: -10vh;
+    /* -webkit-mask-image:-webkit-gradient(linear, left 90% top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
+}
+
+.hero .navbar {
+    background: transparent;
+}
+
+.section.is-medium {
+    padding: 3rem 1.5rem;
+    
+}
+
+.packages {
+    margin-top: -20%;
+}
+
+.title {
+    color: #f39200
+}
+
+.feature-card {
+    background-color: #dbdbdb;
+}
+
+.button.button.accent-btn {
+    border-color: #7a7a7a;
+    background-color: #7a7a7a;
+}
+
+#dependencyGraph{
+    top: 10%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#dependencyGraph object{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+
+.nodetext{
+    font-size: 13px;
+}
