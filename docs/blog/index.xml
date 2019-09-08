@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Hugo Fresh Theme</title>
-    <link>http://something-fresh.org/blog/</link>
-    <description>Recent content in Blogs on Hugo Fresh Theme</description>
+    <title>Blogs on bdverse</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on bdverse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="http://something-fresh.org/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello R Markdown</title>
-      <link>http://something-fresh.org/blog/2015-07-23-r-rmarkdown/</link>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>http://something-fresh.org/blog/2015-07-23-r-rmarkdown/</guid>
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -24,19 +24,19 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>First</title>
-      <link>http://something-fresh.org/blog/first/</link>
+      <link>/blog/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/blog/first/</guid>
+      <guid>/blog/first/</guid>
       <description>My super sweet first blog post!!</description>
     </item>
     
     <item>
       <title>Second</title>
-      <link>http://something-fresh.org/blog/second/</link>
+      <link>/blog/second/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/blog/second/</guid>
+      <guid>/blog/second/</guid>
       <description>My awesome blogpost My super sweet second blog post</description>
     </item>
     
