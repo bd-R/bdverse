@@ -5,9 +5,10 @@ library(rstudioapi)
 ui <- fluidPage(fluidRow(
     tags$head(
         tags$meta(name="viewport", content="width=device-width, initial-scale=1.0"),
-        tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+        tags$link(rel = "stylesheet", type = "text/css", href = "style.css"),
+        tags$link(rel= "shortcut icon", href= "bdverse_favicon_3.png")
     ),
-    p(class = "logo", "bdverse Launcher"),
+    div(class = "logo", fluidRow(img(src="bdverse_logo_long_1.svg"))),
     column(
         width = 3,
         div(

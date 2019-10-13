@@ -15,8 +15,3 @@ tibble of dependency list
 \description{
 List all dependencies of bdverse
 }
-\examples{
-
-deps <- bd_dependencies(TRUE)
-
-}

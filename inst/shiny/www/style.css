@@ -12,6 +12,11 @@
     color: #fff;
 }
 
+.logo img {
+  height: 40px;
+  width: 100%;
+}
+
 .title{
       font-style: italic;
       padding-top: 25%;

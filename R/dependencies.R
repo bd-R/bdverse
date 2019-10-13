@@ -3,10 +3,9 @@
 #' @param recursive Whether to return recursive rependencies as well.
 #' 
 #' @return tibble of dependency list
-#'
-#' @examples
 #' 
-#' deps <- bd_dependencies(TRUE)
+#'
+#' @import tibble
 #'
 #' @export
 bd_dependencies <- function(recursive = FALSE) {
@@ -18,32 +17,27 @@ bd_dependencies <- function(recursive = FALSE) {
     } else {
         dep <-
             c(
-                "chron",
-                "data.table",
                 "DT",
+                "assertive",
+                "data.table",
                 "finch",
-                "ggplot2",
+                "golem",
+                "gtools",
+                "kableExtra",
                 "knitr",
-                "lattice",
                 "leaflet",
-                "leafletR",
-                "maps",
+                "magrittr",
                 "methods",
-                "plotrix",
-                "plyr",
                 "rgbif",
-                "rgdal",
                 "rmarkdown",
+                "rstudioapi",
                 "shiny",
-                "shinyBS",
-                "shinyFiles",
                 "shinydashboard",
                 "shinyjs",
                 "spocc",
-                "sqldf",
-                "taxize",
+                "tibble",
                 "tools",
-                "treemap",
+                "utils",
                 "yaml"
             )
     }
@@ -90,14 +84,8 @@ bd_dependencies <- function(recursive = FALSE) {
 #' 
 #' @return String with citations or a file with citations
 #'
-#' @examples
 #' 
-#' # example 01 - Printing to console
-#' cite <- bd_citation(2, "text")
-#' 
-#' # example 02 - printing to file
-#' bd_citation(2, "text", "cite.bib")
-#' 
+#' @import gtools utils knitr
 #' 
 #' @export
 bd_citation <- function(citation_level = 1,
@@ -112,39 +100,36 @@ bd_citation <- function(citation_level = 1,
                 "bdverse",
                 "bdDwC",
                 "bdchecks",
+                "bddwc.app",
+                "bdchecks.app",
                 "bdclean",
-                "bdvis"
+                "bdutilities",
+                "bdutilities.app"
                 )
     } else if (citation_level == 3) {
         dep <-
             c(
-                "bdverse",
-                "chron",
-                "data.table",
                 "DT",
+                "assertive",
+                "data.table",
                 "finch",
-                "ggplot2",
+                "golem",
+                "gtools",
+                "kableExtra",
                 "knitr",
-                "lattice",
                 "leaflet",
-                "leafletR",
-                "maps",
+                "magrittr",
                 "methods",
-                "plotrix",
-                "plyr",
                 "rgbif",
-                "rgdal",
                 "rmarkdown",
+                "rstudioapi",
                 "shiny",
-                "shinyBS",
-                "shinyFiles",
                 "shinydashboard",
                 "shinyjs",
                 "spocc",
-                "sqldf",
-                "taxize",
+                "tibble",
                 "tools",
-                "treemap",
+                "utils",
                 "yaml"
             )
     } else if (citation_level == 4) {
@@ -193,17 +178,18 @@ bd_citation <- function(citation_level = 1,
 #' 
 #' @return tibble of packages list
 #'
-#' @examples
-#' 
-#' pkgs <- bd_packages(TRUE)
+#' @import bdutilities bdutilities.app bdDwC bddwc.app bdchecks bdchecks.app bdclean utils tibble
 #'
 #' @export
 bd_packages <- function() {
     pkg_desc <-
         list(
+            utils::packageDescription("bdutilities"),
+            utils::packageDescription("bdutilities.app"),
             utils::packageDescription("bdDwC"),
+            utils::packageDescription("bddwc.app"),
             utils::packageDescription("bdchecks"),
-            utils::packageDescription("bdvis"),
+            utils::packageDescription("bdchecks.app"),
             utils::packageDescription("bdclean")
         )
     

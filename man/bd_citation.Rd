@@ -19,13 +19,3 @@ String with citations or a file with citations
 \description{
 Create citations for all dependencies of bdverse
 }
-\examples{
-
-# example 01 - Printing to console
-cite <- bd_citation(2, "text")
-
-# example 02 - printing to file
-bd_citation(2, "text", "cite.bib")
-
-
-}

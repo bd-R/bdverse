@@ -1,2 +1,2 @@
-path_app <- system.file("shiny", package = "bdchecks")
+path_app <- system.file("app", package = "bdchecks.app")
 shiny::runApp(path_app, launch.browser = TRUE, port = 876)
