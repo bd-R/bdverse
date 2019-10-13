@@ -2,8 +2,8 @@ Package: bdverse
 Type: Package
 Title: Collection of Packages That Form a General Framework for Facilitating Biodiversity Science in R
 Description: A sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The bdverse supports users with and without programming capabilities. It includes six unique packages in a hierarchal structure — representing different functionality levels.
-Version: 0.1.0
-Date: 2019-07-15
+Version: 0.0.2
+Date: 2019-10-13
 Authors@R: c(
     person(
         "Tomer", "Gueta", 
@@ -31,7 +31,20 @@ Authors@R: c(
         comment = c(ORCID = '0000-0002-5883-0184'))
     )
 Maintainer: Thiloshon Nagarajah <thiloshon@gmail.com>
-Imports: shiny, bdDwC, bdchecks, bdclean, bdvis, gtools, tibble, knitr, rstudioapi, utils
+Imports: 
+    bdchecks,
+    bdchecks.app,
+    bdclean,
+    bddwc.app,
+    bdDwC,
+    bdutilities,
+    bdutilities.app,
+    gtools,
+    knitr,
+    rstudioapi,
+    shiny,
+    tibble,
+    utils
 Depends: R (>= 2.10)
 RoxygenNote: 6.1.1
 URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html

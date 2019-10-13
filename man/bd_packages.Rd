@@ -12,7 +12,3 @@ tibble of packages list
 \description{
 List all packages available in bdverse
 }
-\examples{
-
-
-}

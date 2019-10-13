@@ -19,8 +19,3 @@ String with citations or a file with citations
 \description{
 Create citations for all dependencies of bdverse
 }
-\examples{
-
-
-
-}
