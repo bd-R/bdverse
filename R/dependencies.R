@@ -3,6 +3,7 @@
 #' @param recursive Whether to return recursive rependencies as well.
 #' 
 #' @return tibble of dependency list
+#' 
 #'
 #' @import tibble
 #'
