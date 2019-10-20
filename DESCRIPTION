@@ -34,29 +34,6 @@ Maintainer: Thiloshon Nagarajah <thiloshon@gmail.com>
 Imports: 
     cli,
     crayon,
-    gtools,
-    knitr,
-    rstudioapi,
-    shiny,
-    tibble,
-    utils,
-    bdutilities (>= 0.0.1),
-    bdDwC (>= 0.1.5),
-    bdchecks (>= 0.1.3),
-    bdutilities.app (>= 0.0.1),
-    bddwc.app (>= 0.0.5),
-    bdchecks.app (>= 0.0.3),
-    bdclean (>= 0.1.17)
-Depends: 
-    bdchecks,
-    bdchecks.app,
-    bdclean,
-    bdDwC,
-    bddwc.app,
-    bdutilities,
-    bdutilities.app,
-    cli,
-    crayon,
     devtools,
     gtools,
     knitr,
@@ -65,7 +42,14 @@ Depends:
     shiny,
     tibble,
     utils,
-    R (>= 2.10)
+    bdutilities (>= 0.0.1),
+    bdutilities.app (>= 0.0.1),
+    bdDwC (>= 0.1.5),
+    bddwc.app (>= 0.0.5),
+    bdchecks (>= 0.1.3),
+    bdchecks.app (>= 0.0.3),
+    bdclean (>= 0.1.17)
+Depends: R (>= 2.10)
 RoxygenNote: 6.1.1
 URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html
 BugReports: https://github.com/bd-R/bdverse/issues
