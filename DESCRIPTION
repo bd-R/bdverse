@@ -60,7 +60,6 @@ Depends:
     devtools,
     gtools,
     knitr,
-    R,
     roxygen2,
     rstudioapi,
     shiny,
