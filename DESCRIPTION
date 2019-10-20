@@ -32,19 +32,19 @@ Authors@R: c(
     )
 Maintainer: Thiloshon Nagarajah <thiloshon@gmail.com>
 Imports: 
-    bdchecks,
-    bdchecks.app,
-    bdclean,
-    bddwc.app,
-    bdDwC,
-    bdutilities,
-    bdutilities.app,
     gtools,
     knitr,
     rstudioapi,
     shiny,
     tibble,
-    utils
+    utils,
+    bdutilities (>= 0.0.1),
+    bdDwC (>= 0.1.5),
+    bdchecks (>= 0.1.3),
+    bdutilities.app (>= 0.0.1),
+    bddwc.app (>= 0.0.5),
+    bdchecks.app (>= 0.0.3),
+    bdclean (>= 0.1.17)
 Depends: R (>= 2.10)
 RoxygenNote: 6.1.1
 URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html
@@ -52,3 +52,11 @@ BugReports: https://github.com/bd-R/bdverse/issues
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
+Remotes:  
+    bd-R/bdutilities,
+    bd-R/bdutilities.app,
+    bd-R/bdDwC,
+    bd-R/bddwc.app,
+    bd-R/bdchecks,
+    bd-R/bdchecks.app,
+    bd-R/bdclean@new_bdclean
