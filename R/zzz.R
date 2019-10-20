@@ -77,3 +77,13 @@ same_library <- function(pkg) {
 is_attached <- function(x) {
     paste0("package:", x) %in% search()
 }
+
+msg <- function(..., startup = FALSE) {
+  if (startup) {
+    if (!isTRUE(getOption("tidyverse.quiet"))) {
+      packageStartupMessage(text_col(...))
+    }
+  } else {
+    message(text_col(...))
+  }
+}
