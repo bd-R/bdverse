@@ -48,13 +48,6 @@ Imports:
     bdchecks.app (>= 0.0.3),
     bdclean (>= 0.1.17)
 Depends: 
-    bdutilities,
-    bdutilities.app,
-    bdDwC,
-    bddwc.app,
-    bdchecks,
-    bdchecks.app,
-    bdclean,
     cli,
     crayon,
     devtools,
@@ -65,6 +58,13 @@ Depends:
     shiny,
     tibble,
     utils,
+    bdutilities,
+    bdutilities.app,
+    bdDwC,
+    bddwc.app,
+    bdchecks,
+    bdchecks.app,
+    bdclean,
     R (>= 2.10)
 RoxygenNote: 6.1.1
 URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html
