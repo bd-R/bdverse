@@ -1,5 +1,5 @@
 Package: bdverse
-Type: Compendium
+Type: Package
 Title: Collection of Packages That Form a General Framework for Facilitating Biodiversity Science in R
 Description: A sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The bdverse supports users with and without programming capabilities. It includes six unique packages in a hierarchal structure — representing different functionality levels.
 Version: 0.0.3
