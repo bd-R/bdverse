@@ -46,7 +46,7 @@ Imports:
     bdutilities.app (>= 0.0.1),
     bdDwC (>= 0.1.5),
     bddwc.app (>= 0.0.5),
-    bdchecks (>= 0.1.99),
+    bdchecks (>= 0.1.105),
     bdchecks.app (>= 0.0.3),
     bdclean (>= 0.1.17)
 Depends: R (>= 2.10)
