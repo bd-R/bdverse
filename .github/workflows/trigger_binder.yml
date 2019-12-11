@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: boyeborg/fetch-url-action@v1.1
     - name: Fetch URL
+      uses: boyeborg/fetch-url-action@v1.1
       with:
         # The url to fetch
         url: https://mybinder.org/v2/gh/bd-R/bdverse/master?urlpath=rstudio
