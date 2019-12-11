@@ -1,0 +1,15 @@
+name: Triggering binder
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: boyeborg/fetch-url-action@v1.1
+    - name: Fetch URL
+      with:
+        # The url to fetch
+        url: https://mybinder.org/v2/gh/bd-R/bdverse/master?urlpath=rstudio
