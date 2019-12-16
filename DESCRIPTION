@@ -42,13 +42,13 @@ Imports:
     shiny,
     tibble,
     utils,
-    bdutilities (>= 0.0.1),
-    bdutilities.app (>= 0.0.1),
-    bdDwC (>= 0.1.5),
-    bddwc.app (>= 0.0.5),
+    bdutilities (>= 0.0.2),
+    bdutilities.app (>= 0.0.4),
+    bdDwC (>= 0.1.51),
+    bddwc.app (>= 0.0.7),
     bdchecks (>= 0.1.111),
-    bdchecks.app (>= 0.0.3),
-    bdclean (>= 0.1.17)
+    bdchecks.app (>= 0.0.5),
+    bdclean (>= 0.1.20)
 Depends: R (>= 2.10)
 RoxygenNote: 6.1.1
 URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html
