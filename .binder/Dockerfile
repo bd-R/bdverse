@@ -1,4 +1,4 @@
-FROM bdverse/bdverse-binder:1e01bfbd451b
+FROM bdverse/bdverse-binder:2020-03-15
 LABEL maintainer='Tomer Gueta'
 USER root
 COPY . ${HOME}
