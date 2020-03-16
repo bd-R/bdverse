@@ -43,7 +43,7 @@ Imports:
     utils,
     bdutilities (>= 0.0.3),
     bdutilities.app (>= 0.2.0),
-    bdDwC (>= 0.1.51),
+    bdDwC (>= 0.1.52),
     bddwc.app (>= 0.0.12),
     bdchecks (>= 0.1.140),
     bdchecks.app (>= 0.2.0),
