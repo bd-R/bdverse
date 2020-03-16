@@ -1,5 +1,5 @@
 Package: bdverse
-Title: Collection of Packages That Form a General Framework for Facilitating Biodiversity Science in R
+Title: An Infrastructural Toolkit for Biodiversity Data Quality in R
 Description: A sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The bdverse supports users with and without programming capabilities. It includes six unique packages in a hierarchal structure — representing different functionality levels.
 Version: 0.0.3
 Date: 2019-10-19
@@ -44,9 +44,9 @@ Imports:
     bdutilities (>= 0.0.3),
     bdutilities.app (>= 0.2.0),
     bdDwC (>= 0.1.51),
-    bddwc.app (>= 0.0.11),
+    bddwc.app (>= 0.0.12),
     bdchecks (>= 0.1.140),
-    bdchecks.app (>= 0.1.7),
+    bdchecks.app (>= 0.2.0),
     bdclean (>= 0.1.23)
 Depends: R (>= 2.10)
 RoxygenNote: 6.1.1
