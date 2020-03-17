@@ -9,8 +9,6 @@ USER ${NB_USER}
 RUN wget https://github.com/bd-R/bdverse/raw/master/DESCRIPTION && R -e "options(repos = list(CRAN = 'https://cran.microsoft.com/snapshot/2020-03-15/')); \
 devtools::install_deps(upgrade = 'never'); \
 devtools::install_github('bd-R/bdverse'); \
-devtools::install_github('bd-R/dashboard.demo'); \
-library(bdverse); \
-library(dashboard.demo)"
+devtools::install_github('bd-R/dashboard.demo')"
 
 RUN rm DESCRIPTION.1; exit 0
