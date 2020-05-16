@@ -1,5 +1,6 @@
 library(shiny)
 library(rstudioapi)
+library(bdverse)
 
 
 ui <- fluidPage(fluidRow(
@@ -17,7 +18,7 @@ ui <- fluidPage(fluidRow(
             
             p(class = "title", "bddwc:"),
             p(class = "decr", "Fix and standardize column names in biodiversity data."),
-            actionButton("bddwc", label = "Launch bddwc"),
+            actionButton("bddwc", label = "Launch bddwc", onclick ="window.open('https://bdverse.shinyapps.io/bddwc/', '_blank')"),
             img(src = '003.png', align = "center")
         )
     ),
@@ -32,7 +33,7 @@ ui <- fluidPage(fluidRow(
                 class = "decr",
                 "Manage and execute data quality-checks on biodiversity data."
             ),
-            actionButton("bdchecks", label = "Launch bdchecks"),
+            actionButton("bdchecks", label = "Launch bdchecks", onclick ="window.open('https://bdverse.shinyapps.io/bdchecks/', '_blank')"),
             img(src = '004.png', align = "center")
         )
     ),
@@ -47,7 +48,7 @@ ui <- fluidPage(fluidRow(
                 class = "decr",
                 "Complete data cleaning pipeline for inexperienced R user."
             ),
-            actionButton("bdclean", label = "Launch bdclean"),
+            actionButton("bdclean", label = "Launch bdclean", onclick ="window.open('https://bdverse.shinyapps.io/bdclean/', '_blank')"),
             img(src = '002.png', align = "center")
         )
     ),
@@ -62,28 +63,13 @@ ui <- fluidPage(fluidRow(
                 class = "decr",
                 "Visualize and preview different aspects of biodiversity data."
             ),
-            actionButton("action", label = "Coming Soon"),
+            actionButton("action", label = "Launch bddashboard Demo", onclick ="window.open('https://bdverse.shinyapps.io/bddashboard/', '_blank')"),
             img(src = '001.png', align = "center")
         )
     )
 ))
 
 server <- function(input, output) {
-    observeEvent(input$bddwc, {
-        path_app <- system.file("scripts", 'bddwc.R', package = "bdverse")
-        rstudioapi::jobRunScript(path = path_app)
-    })
-    
-    observeEvent(input$bdchecks, {
-        path_app <-
-            system.file("scripts", 'bdchecks.R', package = "bdverse")
-        rstudioapi::jobRunScript(path = path_app)
-    })
-    
-    observeEvent(input$bdclean, {
-        path_app <- system.file("scripts", 'bdclean.R', package = "bdverse")
-        rstudioapi::jobRunScript(path = path_app)
-    })
 }
 
 shinyApp(ui = ui, server = server)

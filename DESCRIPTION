@@ -1,8 +1,8 @@
 Package: bdverse
 Title: An Infrastructural Toolkit for Biodiversity Data Quality in R
 Description: A sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The bdverse supports users with and without programming capabilities. It includes six unique packages in a hierarchal structure — representing different functionality levels.
-Version: 0.0.3
-Date: 2019-10-19
+Version: 0.0.4
+Date: 2020-05-16
 Authors@R: c(
     person(
         "Tomer", "Gueta", 
