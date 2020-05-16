@@ -1,1 +1,7 @@
 xdg-utils
+libpng-dev
+libv8-dev
+libgeos-dev
+libjq-dev
+texlive
+libxml2-dev
