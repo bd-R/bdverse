@@ -44,9 +44,9 @@ Imports:
     bdutilities (>= 0.0.4),
     bdutilities.app (>= 0.2.1),
     bdDwC (>= 0.1.52),
-    bddwc.app (>= 0.0.13),
+    bddwc.app (>= 0.0.14),
     bdchecks (>= 0.1.200),
-    bdchecks.app (>= 0.2.1),
+    bdchecks.app (>= 0.2.2),
     bdclean (>= 0.1.24)
 Depends: R (>= 2.10)
 RoxygenNote: 6.1.1
