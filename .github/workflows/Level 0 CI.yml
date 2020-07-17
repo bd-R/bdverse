@@ -1,4 +1,4 @@
-name: Master CI with Trigger
+name: Level 0 CI
 # this CI runs when a new push or Pull Request comes to Master branch. At the end of the run,it sends "repository_dispatch" message to other repositories mentioned in
 # repo matrix. 
 # Controls when the action will run. Triggers the workflow on push or pull request
