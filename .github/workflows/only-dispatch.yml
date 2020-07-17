@@ -1,0 +1,23 @@
+name: bdverse-master-branch-CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  dispatch:
+    strategy:
+      matrix:
+        repo: ['bd-R/bdutilities', 'bd-R/bdDwC', 'bd-R/bdchecks']
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: ${{ matrix.repo }}
+          event-type: my-event
