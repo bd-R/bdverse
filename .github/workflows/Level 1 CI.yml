@@ -1,7 +1,7 @@
 # This work flow only works when a repository_dispatch event with custom type "bdverse-level-CI-trigger" happens.
 #It must be in Master branch.
 
-name:  Master CI without Trigger
+name:  Level 1 CI
 on:
   repository_dispatch:
     types: [bdverse-level-CI-trigger]
