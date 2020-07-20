@@ -31,7 +31,7 @@ jobs:
     needs: R-CMD-check
     strategy:
       matrix:
-        repo: ['bd-R/bdutilities', 'bd-R/bdDwC', 'bd-R/bdchecks']
+        repo: ['bd-R/bdutilities', 'bd-R/bdDwC', 'bd-R/bdchecks', 'bd-R/bdutilities.app' ,'bd-R/bdDwC.app', 'bd-R/bdchecks.app','bd-R/bdclean]
     runs-on: ubuntu-latest
     steps:
       - name: Repository Dispatch
