@@ -56,10 +56,10 @@ License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Remotes:  
-    bd-R/bdutilities,
-    bd-R/bdutilities.app,
-    bd-R/bdDwC,
-    bd-R/bddwc.app,
-    bd-R/bdchecks,
-    bd-R/bdchecks.app,
-    bd-R/bdclean@new_bdclean
+    bd-R/bdutilities@dev,
+    bd-R/bdutilities.app@dev,
+    bd-R/bdDwC@dev,
+    bd-R/bddwc.app@dev,
+    bd-R/bdchecks@dev,
+    bd-R/bdchecks.ap@devp,
+    bd-R/bdclean@dev
