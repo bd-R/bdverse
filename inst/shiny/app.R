@@ -57,12 +57,12 @@ ui <- fluidPage(fluidRow(
         div(
             id = "pic04",
             class = "pane",
-            p(class = "title", "bdvis:"),
+            p(class = "title", "bddashboard:"),
             p(
                 class = "decr",
                 "Visualize and preview different aspects of biodiversity data."
             ),
-            actionButton("action", label = "Under Development"),
+            actionButton("action", label = "Launch bddashboard"),
             img(src = '001.png', align = "center")
         )
     )
@@ -84,6 +84,11 @@ server <- function(input, output) {
     observeEvent(input$bdclean, {
         path_app <- system.file("scripts", 'bdclean.R', package = "bdverse")
         rstudioapi::jobRunScript(path = path_app)
+    })
+    
+    observeEvent(input$bddashboard, {
+      path_app <- system.file("scripts", 'bddashboard.R', package = "bdverse")
+      rstudioapi::jobRunScript(path = path_app)
     })
 }
 
