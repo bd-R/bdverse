@@ -1,6 +1,6 @@
 #' List all dependencies of bdverse
 #'
-#' @param recursive Whether to return recursive rependencies as well.
+#' @param recursive Whether to return recursive dependencies as well.
 #' 
 #' @return tibble of dependency list
 #' 
