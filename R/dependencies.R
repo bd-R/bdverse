@@ -1,6 +1,6 @@
 #' List all dependencies of bdverse
 #'
-#' @param recursive Whether to return recursive rependencies as well.
+#' @param recursive Whether to return recursive dependencies as well.
 #' 
 #' @return tibble of dependency list
 #' 
@@ -103,6 +103,7 @@ bd_citation <- function(citation_level = 1,
                 "bddwc.app",
                 "bdchecks.app",
                 "bdclean",
+                "bddashboard",
                 "bdutilities",
                 "bdutilities.app"
                 )
@@ -190,7 +191,8 @@ bd_packages <- function() {
             utils::packageDescription("bddwc.app"),
             utils::packageDescription("bdchecks"),
             utils::packageDescription("bdchecks.app"),
-            utils::packageDescription("bdclean")
+            utils::packageDescription("bdclean"),
+            utils::packageDescription("bddashboard")
         )
     
     return(

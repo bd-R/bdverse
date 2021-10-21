@@ -1,7 +1,7 @@
 Package: bdverse
-Title: An Infrastructural Toolkit for Biodiversity Data Quality in R
-Description: A sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The bdverse supports users with and without programming capabilities. It includes six unique packages in a hierarchal structure — representing different functionality levels.
-Version: 0.0.5
+Title: An Infrastructural and Modular Toolkit for Biodiversity Data Quality in R
+Description: The bdverse (biodiversity data universe) is a biodiversity data quality toolkit constructed as a family of R packages. It allows users with- and without programming capabilities, to conveniently and coherently employ R for data exploration, quality assessment, data cleaning, and standardization.
+Version: 0.0.6
 Date: 2021-07-18
 Authors@R: c(
     person(
@@ -10,19 +10,27 @@ Authors@R: c(
         role = c("aut"),
         comment = c(ORCID = '0000-0003-1557-8596')),
     person(
+        "Thiloshon", "Nagarajah",
+        email = "thiloshon@gmail.com",
+        role = c("aut","cre")),
+    person(
         "Vijay", "Barve", ,
         email = "vijay.barve@gmail.com", 
         role = c("aut"),
         comment = c(ORCID = '0000-0002-4852-2567')),
     person(
-        "Thiloshon", "Nagarajah",
-        email = "thiloshon@gmail.com",
-        role = c("aut","cre")),
+        "Rahul", "Chauhan",
+        email = "rahul.chauhan049@gmail.com",
+        role = c("aut")),
     person(
         "Povilas", "Gibas",
         email = "povilasgibas@gmail.com",
         role = c("aut"),
         comment = c(ORCID = '0000-0001-5311-6021')),
+    person(
+        "Martynas", "Jočys", ,
+        email = "martjocys@gmail.com ", 
+        role = c("aut")),
     person(
         "Yohay", "Carmel",
         email = "yohay@cv.technion.ac.il",
@@ -47,7 +55,8 @@ Imports:
     bddwc.app (>= 0.0.14),
     bdchecks (>= 0.1.200),
     bdchecks.app (>= 0.2.2),
-    bdclean (>= 0.1.24)
+    bdclean (>= 0.1.24),
+    bddashboard (>=  0.1.1)
 Depends: R (>= 3.5)
 RoxygenNote: 6.1.1
 URL: https://github.com/bd-R/bdverse, https://bd-r.github.io/The-bdverse/index.html
@@ -62,4 +71,5 @@ Remotes:
     bd-R/bddwc.app@dev,
     bd-R/bdchecks@dev,
     bd-R/bdchecks.app@dev,
-    bd-R/bdclean@dev
+    bd-R/bdclean@dev,
+    bd-R/bddashboard@dev
