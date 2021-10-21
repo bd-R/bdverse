@@ -62,7 +62,7 @@ ui <- fluidPage(fluidRow(
                 class = "decr",
                 "Visualize and preview different aspects of biodiversity data."
             ),
-            actionButton("action", label = "Launch bddashboard"),
+            actionButton("bddashboard", label = "Launch bddashboard"),
             img(src = '001.png', align = "center")
         )
     )
