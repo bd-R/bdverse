@@ -1,7 +1,14 @@
 # With much gratitude for tidyverse folks. 
 # This script is derived from https://github.com/tidyverse/tidyverse and altered for bdverse.
 
-core <- c("bdutilities", "bdutilities.app", "bdDwC", "bddwc.app", "bdchecks", "bdchecks.app", "bdclean")
+core <- c("bdutilities",
+          "bdutilities.app",
+          "bdDwC",
+          "bddwc.app",
+          "bdchecks",
+          "bdchecks.app",
+          "bdclean",
+          "bddashboard")
 
 .onAttach <- function(...) {
   
